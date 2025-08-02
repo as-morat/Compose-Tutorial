@@ -4,6 +4,7 @@ import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
+import com.example.composebasic.fontstyle.FontDesign
 import com.example.composebasic.imagecard.ImageScreen
 import com.example.composebasic.ui.theme.ComposeBasicTheme
 
@@ -13,7 +14,8 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             ComposeBasicTheme {
-                ImageScreen()
+//                ImageScreen()
+                FontDesign()
             }
         }
     }
