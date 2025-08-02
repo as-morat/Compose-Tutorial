@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
+    <!--  Basic Material Colors -->
     <color name="purple_200">#FFBB86FC</color>
     <color name="purple_500">#FF6200EE</color>
     <color name="purple_700">#FF3700B3</color>
@@ -7,4 +9,93 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <!--  Whites -->
+    <color name="white_pure">#FFFFFFFF</color>
+    <color name="white_moon">#FFFCFCFC</color>
+    <color name="white_snow">#FFF9F9F9</color>
+    <color name="white_smoke">#FFF2F2F2</color>
+
+    <!--  Blues & Cyans -->
+    <color name="blue_sky">#FFAAD8F7</color>
+    <color name="blue_powder">#FFB0E0E6</color>
+    <color name="blue_calm">#FFD6ECF3</color>
+    <color name="cyan_soft">#FFCAFFF5</color>
+    <color name="cyan_pastel">#FFC3FDFD</color>
+    <color name="cyan_deep">#FF0CBABA</color>
+
+    <!--  Magentas & Pinks -->
+    <color name="magenta_pastel">#FFF7D1FF</color>
+    <color name="magenta_soft">#FFF0B3FF</color>
+    <color name="magenta_deep">#FF9B00B6</color>
+    <color name="pink_milk">#FFFFD1DC</color>
+    <color name="pink_cotton">#FFFCE4EC</color>
+    <color name="pink_lush">#FFFFB6B9</color>
+
+    <!--  Greens -->
+    <color name="green_mint">#FFCFFFE5</color>
+    <color name="green_mint_dark">#FFA0E7D1</color>
+    <color name="green_forest_soft">#FF9FE6B8</color>
+    <color name="green_deep">#FF49796B</color>
+    <color name="green_ice">#FFE0FFF4</color>
+
+    <!--  Oranges -->
+    <color name="orange_peach">#FFFFE0C8</color>
+    <color name="orange_mild">#FFFFDAC1</color>
+    <color name="orange_creamy">#FFFFE6D5</color>
+    <color name="orange_deep">#FFFF6F3C</color>
+
+    <!--  Yellows -->
+    <color name="yellow_soft">#FFFFF5D1</color>
+    <color name="yellow_pastel">#FFFFF9C4</color>
+    <color name="yellow_moon">#FFFFE9A7</color>
+    <color name="yellow_gold_soft">#FFFFD700</color>
+
+    <!--  Purples -->
+    <color name="purple_lilac">#FFDED2F6</color>
+    <color name="purple_mauve">#FFF4D5F9</color>
+    <color name="purple_soft">#FFE6D9FF</color>
+    <color name="purple_deep">#FF5D54A4</color>
+
+    <!--  Soft Pastel Combos -->
+    <color name="soft_pink">#FFE3E8FF</color>
+    <color name="soft_blue">#FFD2F0FF</color>
+    <color name="soft_purple">#FFE6D9FF</color>
+    <color name="soft_green">#FFDFFFE2</color>
+    <color name="soft_yellow">#FFFFF5D1</color>
+    <color name="soft_orange">#FFFFE6D5</color>
+
+    <!--  Gentle Mid Tones -->
+    <color name="light_purple">#FFB9AEDC</color>
+    <color name="light_teal">#FFA8E6CF</color>
+    <color name="light_coral">#FFFFB6B9</color>
+    <color name="light_sky">#FFAEDFF7</color>
+
+    <!--  Deep Soft Darks -->
+    <color name="deep_blue">#FF3A506B</color>
+    <color name="deep_purple">#FF5D54A4</color>
+    <color name="deep_green">#FF49796B</color>
+    <color name="deep_orange">#FFFF6F3C</color>
+
+    <!--  Peach & Creamy Tones -->
+    <color name="peach_fizz">#FFFFE0C8</color>
+    <color name="rose_milk">#FFFFD1DC</color>
+    <color name="mild_orange">#FFFFDAC1</color>
+    <color name="pastel_sunset">#FFFFC1A1</color>
+
+    <!--  Mixed Pastels -->
+    <color name="lavender_blush">#FFFFF0F5</color>
+    <color name="mauve_cloud">#FFF4D5F9</color>
+    <color name="lilac_mist">#FFDED2F6</color>
+    <color name="pastel_rainbow">#FFF7E8FF</color>
+
+    <!--  Neutrals & Grays -->
+    <color name="soft_gray">#FFF0F0F0</color>
+    <color name="gray_light">#FFDADADA</color>
+    <color name="gray_medium">#FFB0B0B0</color>
+    <color name="gray_dark">#FF606060</color>
+    <color name="black_pure">#FF000000</color>
+    <color name="black_soft">#FF1B1B1B</color>
+    <color name="black_fade">#FF2C2C2C</color>
+
 </resources>
