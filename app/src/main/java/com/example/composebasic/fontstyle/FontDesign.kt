@@ -38,8 +38,8 @@ fun FontDesign() {
             .background(
                 brush = Brush.horizontalGradient(
                     listOf(
-                        colorResource(R.color.soft_blue),      // Visible soft left
-                        colorResource(R.color.purple_mauve)    // Contrast right
+                        colorResource(R.color.soft_blue),
+                        colorResource(R.color.purple_mauve)
                     )
                 )
             ),
