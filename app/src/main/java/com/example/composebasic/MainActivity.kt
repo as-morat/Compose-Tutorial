@@ -4,6 +4,7 @@ import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
+import com.example.composebasic.animation.SimpleColor
 import com.example.composebasic.constrainlayout.ConstraintScreen
 import com.example.composebasic.fontstyle.FontDesign
 import com.example.composebasic.imagecard.ImageScreen
@@ -22,6 +23,7 @@ class MainActivity : ComponentActivity() {
 //                 ColorBox()
 //                SnackBarText()
 //                ConstraintScreen()
+                SimpleColor()
             }
         }
     }
