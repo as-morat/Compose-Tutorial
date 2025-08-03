@@ -6,6 +6,7 @@ import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
 import com.example.composebasic.fontstyle.FontDesign
 import com.example.composebasic.imagecard.ImageScreen
+import com.example.composebasic.snackbartext.SnackBarText
 import com.example.composebasic.state.ColorBox
 import com.example.composebasic.ui.theme.ComposeBasicTheme
 
@@ -17,7 +18,8 @@ class MainActivity : ComponentActivity() {
             ComposeBasicTheme {
 //                ImageScreen()
 //                FontDesign()
-                ColorBox()
+//                 ColorBox()
+                SnackBarText()
             }
         }
     }
