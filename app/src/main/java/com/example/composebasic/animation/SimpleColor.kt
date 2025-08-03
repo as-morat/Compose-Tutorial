@@ -36,6 +36,7 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
+import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.colorResource
 import androidx.compose.ui.unit.dp
@@ -80,10 +81,12 @@ fun SimpleColor() {
     Column(
         Modifier
             .fillMaxSize()
-            .background(
-                colorResource(
-                    R.color.deep_orange
+            .background(brush = Brush.horizontalGradient(
+                listOf(
+                    colorResource(R.color.orange_creamy),
+                    colorResource(R.color.deep_orange)
                 )
+            )
             ),
         Arrangement.Center,
         Alignment.CenterHorizontally
