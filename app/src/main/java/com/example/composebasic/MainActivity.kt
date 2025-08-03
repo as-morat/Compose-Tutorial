@@ -4,6 +4,7 @@ import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
+import com.example.composebasic.constrainlayout.ConstraintScreen
 import com.example.composebasic.fontstyle.FontDesign
 import com.example.composebasic.imagecard.ImageScreen
 import com.example.composebasic.snackbartext.SnackBarText
@@ -19,7 +20,8 @@ class MainActivity : ComponentActivity() {
 //                ImageScreen()
 //                FontDesign()
 //                 ColorBox()
-                SnackBarText()
+//                SnackBarText()
+//                ConstraintScreen()
             }
         }
     }
