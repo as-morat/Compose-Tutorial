@@ -39,7 +39,7 @@ fun CircularProgressBar(
             Color(0xFF92FE9D)
         )
     ),
-    strokeWidth: Dp = 20.dp,
+    strokeWidth: Dp = 18.dp,
     animeDuration: Int = 2000,
     animDelay: Int = 100
 ) {
@@ -65,7 +65,7 @@ fun CircularProgressBar(
                 useCenter = false,
                 style = Stroke(
                     strokeWidth.toPx(),
-                    cap = StrokeCap.Round
+                    cap = StrokeCap.Square
                 )
             )
         }

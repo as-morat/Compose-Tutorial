@@ -25,7 +25,7 @@ class MainActivity : ComponentActivity() {
 //                SimpleColor()
                 Box (Modifier.fillMaxSize(), Alignment.Center){
                     CircularProgressBar(
-                        .75f,
+                        0.82f,
                         100,
                     )
                 }
