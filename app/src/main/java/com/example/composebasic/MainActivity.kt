@@ -4,12 +4,11 @@ import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
-import com.example.composebasic.animation.SimpleColor
-import com.example.composebasic.constrainlayout.ConstraintScreen
-import com.example.composebasic.fontstyle.FontDesign
-import com.example.composebasic.imagecard.ImageScreen
-import com.example.composebasic.snackbartext.SnackBarText
-import com.example.composebasic.state.ColorBox
+import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.ui.Alignment
+import androidx.compose.ui.Modifier
+import com.example.composebasic.animation.progressbar.CircularProgressBar
 import com.example.composebasic.ui.theme.ComposeBasicTheme
 
 class MainActivity : ComponentActivity() {
@@ -23,7 +22,13 @@ class MainActivity : ComponentActivity() {
 //                 ColorBox()
 //                SnackBarText()
 //                ConstraintScreen()
-                SimpleColor()
+//                SimpleColor()
+                Box (Modifier.fillMaxSize(), Alignment.Center){
+                    CircularProgressBar(
+                        1f,
+                        100,
+                    )
+                }
             }
         }
     }
