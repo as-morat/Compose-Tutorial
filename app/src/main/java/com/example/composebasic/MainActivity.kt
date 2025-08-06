@@ -23,7 +23,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.dp
 import com.example.composebasic.animation.musicknob.MusicKnob
-import com.example.composebasic.animation.musicknob.VolumeMeter
+import com.example.composebasic.animation.musicknob.MusicPrev
 import com.example.composebasic.animation.progressbar.CircularProgressBar
 import com.example.composebasic.ui.theme.ComposeBasicTheme
 
@@ -39,46 +39,14 @@ class MainActivity : ComponentActivity() {
 //                SnackBarText()
 //                ConstraintScreen()
 //                SimpleColor()
-                Box (
-                    Modifier.fillMaxSize(), Alignment.Center
-                ){
+//                Box (
+//                    Modifier.fillMaxSize(), Alignment.Center
+//                ){
 //                    CircularProgressBar(
 //                        0.82f,
 //                        100,
 //                    )
-                    Row (
-                        horizontalArrangement = Arrangement.Center,
-                        verticalAlignment = Alignment.CenterVertically,
-                        modifier = Modifier
-                            .border(1.dp, Color.Transparent, RoundedCornerShape(10.dp))
-                            .padding(24.dp)
-                    ){
-                        var volume by remember { mutableFloatStateOf(0.2f) } // 0..1
-
-                        // Knob on the left
-                        MusicKnob(
-                            modifier = Modifier,
-                            sizeDp = 140,
-                            onValueChange = { percent ->
-                                volume = percent
-                            }
-                        )
-
-                        Spacer(Modifier.width(20.dp))
-
-                        // Volume meter on the right
-                        VolumeMeter(
-                            modifier = Modifier
-                                .width(280.dp)
-                                .height(160.dp),
-                            volume = volume,
-                            barCount = 16,
-                            barSpacing = 6.dp,
-                            barCornerRadius = 8.dp
-                        )
-                    }
-
-                }
+                MusicPrev()
             }
         }
     }
